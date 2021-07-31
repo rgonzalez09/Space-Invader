@@ -79,7 +79,7 @@ newGame();
 let gameover = false;
 let gameLoop = () => {
   if (!gameover) {
-    //Score box
+    //Score box design
     context.fillStyle = "#111111";
     context.fillRect(0, 0, width, height);
     context.strokeStyle = "#eeeeee";
